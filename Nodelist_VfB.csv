@@ -1,0 +1,17 @@
+id,name,type,age,function,representaion,position
+hitzlsperger,Thomas Hitzlsperger,0,38,V,"Sport, Unternehmensstrategie und Kommunikation",Vorsitz
+keller,Tobias Keller,0,N/A,V,"Finanzen, Verwaltung",Vorsitz
+schraft,Oliver Schraft,0,53,V,"Kommunikation, DFL",Vorsitz
+vogt,Claus Vogt,0,51,AR,"Präsident e.V., Intestia",Vorsitz
+porth,Wilfried Porth,0,62,AR,Daimler AG,Stellvertreter
+adrion,Rainer Adrion,0,67,AR,Präsidium e.V,Mitglied
+jenner,Hartmut Jenner,0,55,AR,Kärcher,Stellvertreter
+reiner,Franz Reiner,0,53,AR,Daimler Mobility AG,Mitglied
+sugg,Dr. Bertram Sugg,0,55,AR,Robert Bosch GmbH,Mitglied
+vfbag,VfB Stuttgart 1893 AG,1,N/A,VE,N/A,N/A
+vfbev,VfB Stuttgart 1893 e.V.,1,N/A,VE,N/A,N/A
+daimler,Daimler AG,1,N/A,S,N/A,N/A
+kaercher,Kärcher SE & Co. KG,1,N/A,S,N/A,N/A
+intestia,Intesia Group Holding GmbH,1,N/A,U,N/A,N/A
+bosch,Robert Bosch GmbH,1,N/A,U,N/A,N/A
+daimlerm,Daimler Mobility AG,1,N/A,U,N/A,N/A
