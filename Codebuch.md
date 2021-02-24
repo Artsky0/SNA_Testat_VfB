@@ -19,7 +19,9 @@ Für die Datenerhebung wurden folgende Quellen verwendet:
 - https://www.vfb.de/de/1893/business/partner/ (für die Sponsoren)
 - https://de.wikipedia.org/wiki/ (für Unternehmensrecherche)
 
-# Nodes und dazugehörige Attribute
+Es handelt sich hierbei um ein two-mode Netzwerk. Die Kanten sind ungerichtet.
+
+# Node-Attribute
 
 **id**
 
@@ -38,7 +40,41 @@ Unterscheidung zwischen Person und Unternehmen
 
 **age**
 
-Alter der Person in ganzen Zahlen. Unternehmen und Personen, bei denen das Alter nicht ermittelt werden konnte, bekommen den Wert N/A.
+Alter der Person in ganzen Zahlen. Unternehmen und Personen, bei denen das Alter nicht ermittelt werden konnte, bekommen den Wert "N/A".
 
 **function**
 
+Status der Person/des Unternehmens
+
+
+AR = Aufsichtsratsmitglied<br>
+S = Sponsor des VfB<br>
+U = Unternehmen<br>
+V = Vorstandsmitglied<br>
+VE = Teil der Vereinsstruktur
+
+**representation**
+
+Funktion innerhalb der VfB Gremien. Weitere Zugehörigkeiten wurden ebenfalls hier aufgelistet.
+
+**position**
+
+Position im entsprechenden Organ (Vorsitz, Stellvertreter, Mitglied). Unternehmen bekommen den Wert "N/A" zugewiesen.
+
+# Edge-Attribute
+
+**from**
+
+Ausgangspunkt der Kante. **id** muss mit Nodelist übereinstimmen!
+
+**to**
+
+Endpunkt der Kante. **id** muss mit Nodelist übereinstimmen!
+
+**relation**
+
+Art der Beziehung zwischen den Knoten
+
+0 = Person zu Person
+1 = Person zu Unternehmen
+2 = Unternehmen zu Unternehmen
